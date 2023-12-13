@@ -10,8 +10,8 @@
 
 var taskInput=document.getElementById("todo-app__new-task");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var incompleteTaskHolder=document.getElementById("todo-app__incomplete-tasks");//ul of #incompleteTasks
-var completedTasksHolder=document.getElementById("todo-app__completed-tasks");//completed-tasks
+var incompleteTaskHolder=document.getElementById("todo-app__tasks-incomplete");//ul of #incompleteTasks
+var completedTasksHolder=document.getElementById("todo-app__tasks-completed");//completed-tasks
 
 
 //New task list item

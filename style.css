@@ -132,7 +132,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#todo-app__completed-tasks label {
+#todo-app__tasks-completed label {
   text-decoration: line-through;
   color: #888;
 }

@@ -61,7 +61,8 @@ button:hover {
   color: #3a3A3a;
 }
 /* Heading */
-h3 {
+h3,
+label[for="todo-app__new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -87,7 +88,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.todo-app__add-item__header {
+label[for="todo-app__new-task"] {
   display: block;
   margin: 0 0 20px;
 }
